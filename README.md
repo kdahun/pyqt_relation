@@ -20,6 +20,7 @@ win.show()
 
 app.exec_()
 ```
+
 ---
 ### 코드 분석하기
 ```
@@ -32,6 +33,7 @@ QtWidgets 모듈에는 QApplication 클래스가 정의되어 있다. 해당 클
 app = QApplication(sys.argc)
 ```
 생성된 QApplication 객체의 exec_ 메소드를 호출하여 이벤트 루프를 시작한다. 이벤트 루프가 시작되면 GUI 프로그램은 사용자가 닫기 버튼을 누를 때 까지 종료하지 않고 계속 실행된다. 이벤트 루프는 반복문 내에서 사용자로 부터 입력되는 이벤트를 처리하기 때문에 그 이름이 '이벤트 루프'인 것이다. 여기서 이벤트라는 것은 사용자가 마우스 클릭하거나 키보드를 입력하는 것과 같은 동작을 의미한다.
+
 ```
 app.exec_() # 이벤트 루프 시작
 ```
@@ -41,3 +43,22 @@ show 메소드를 호출하지 않으면 객체가 메모리에만 생성될 뿐
 win = QWidget()
 win.show()       # 화면에 보여지게 한다.
 ```
+
+---
+### PyQt 위젯
+```
+import sys 
+from PyQt5.QtWidgets import *
+
+app = QApplication(sys.argv)
+
+# ----------------- 수 정 ------------------
+button = QPushButton("Button")
+button.show()
+# -------------------------------------------
+
+app.exec_()
+```
+<img src="https://github.com/kdahun/pyqt_relation/assets/101082485/2bf69749-6cf4-4b97-9607-2ae38e38bdc0">
+
+
