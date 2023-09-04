@@ -4,3 +4,4 @@ PyQt는 아나콘다 배포판을 설치하면 기본적으로 설치되는 패�
 PyQt 패키지에 대한 정보만 확인하려면 conda list pyqt를 입력하면 된다. 이때 패키지의 이름은 대소문자를 구분하지 않는다.
 
 ![image](https://github.com/kdahun/pyqt_relation/assets/101082485/6b4cc49e-039f-4f08-9e8a-fd8b1fd8f440){: .center}
+![title](https://github.com/kdahun/pyqt_relation/assets/101082485/6b4cc49e-039f-4f08-9e8a-fd8b1fd8f440)
