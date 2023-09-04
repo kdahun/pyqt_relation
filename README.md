@@ -62,3 +62,19 @@ app.exec_()
 <img src="https://github.com/kdahun/pyqt_relation/assets/101082485/2bf69749-6cf4-4b97-9607-2ae38e38bdc0">
 
 
+```
+import sys 
+from PyQt5.QtWidgets import *
+
+app = QApplication(sys.argv)
+
+# ----------------- 수 정 ------------------
+label = QLabel("Label")
+label.show()
+# -------------------------------------------
+
+app.exec_()
+```
+<img src="https://github.com/kdahun/pyqt_relation/assets/101082485/8766092a-ad1f-45e4-a113-d8905d9d09d8">
+
+
