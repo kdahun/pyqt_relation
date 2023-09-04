@@ -6,3 +6,17 @@ PyQt 패키지에 대한 정보만 확인하려면 conda list pyqt를 입력하�
 <center>
   <img src="https://github.com/kdahun/pyqt_relation/assets/101082485/6b4cc49e-039f-4f08-9e8a-fd8b1fd8f440">
 </center>
+
+
+## PyQt 시작하기
+```
+import sys
+from PyQt5.QtWidgets import *
+
+app = QApplication(sys.argv)
+
+win = QWidget()
+win.show()
+
+app.exec_()
+```
