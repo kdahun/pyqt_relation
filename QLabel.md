@@ -45,3 +45,36 @@ if __name__ == '__main__':
 ```
 * 실행화면
 <image src = https://github.com/kdahun/pyqt_relation/assets/101082485/af4787f2-0615-41b3-9c9c-31a73f40252d)/>
+---
+## 설명
+```
+label1 = QLabel('Frist Label',self)
+label1.setAlignment(Qt.AlignCenter)
+```
+* 생성자에 라벨 텍스트와 부모 위젯을 입력
+* setAlignment() 메서드로 라벨의 배치를 설정
+* Qt.AlignCenter로 설정해주면 수평, 수직 방향 모두 가운데 위치하게 된다.
+
+
+```
+font1 = label1.font()
+font1.setPointSize(20)
+```
+* setPointSize() 메서드로 폰트의 크기를 설정
+
+
+```
+label2 = QLabel('Second Label', self)
+label2.setAlignment(Qt.AlignVCenter)
+```
+* 수직 방향으로 가운데(Qt.AlignVCenter)로 설정
+* 수평 방향은 Qt.AlignHCenter
+
+
+```
+font2 = label2.font()
+font2.setFamily('Times New Roman')
+font2.setBold(True)
+```
+* setFamily() 메소드로 폰트의 종류를 'Times New Roman'으로 설정
+* setBold(True)로 폰트를 진하게 설정
