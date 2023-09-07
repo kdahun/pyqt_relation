@@ -44,4 +44,4 @@ if __name__ == '__main__':
   sys.exit(app.exec())
 ```
 * 실행화면
-  <image source = https://github.com/kdahun/pyqt_relation/assets/101082485/af4787f2-0615-41b3-9c9c-31a73f40252d)/>
+  <image src = https://github.com/kdahun/pyqt_relation/assets/101082485/af4787f2-0615-41b3-9c9c-31a73f40252d)/>
